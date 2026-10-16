@@ -1,0 +1,21 @@
+{
+  "name": "ppt-kiro-security-automation",
+  "version": "1.0.0",
+  "description": "Security Compliance Automation using Kiro - HTML Presentation",
+  "main": "export-pdf.js",
+  "scripts": {
+    "export": "node export-pdf.js",
+    "export:slides": "node export-slides.js"
+  },
+  "keywords": [
+    "presentation",
+    "pdf",
+    "kiro",
+    "security",
+    "aws"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}
